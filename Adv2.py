@@ -65,5 +65,6 @@ class BagGamePart1:
 
 if __name__ == '__main__':
     bag_game = BagGamePart1(red=12, green=13, blue=14, file='adv2_input.txt')
+    print(bag_game.find_num_possible_games())
     print(bag_game.find_game_set_powers())
     print(time.time()-start)
